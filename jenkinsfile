@@ -4,7 +4,7 @@ pipeline {
     stages {
          stage('Git pull') {
             steps {
-                echo 'getting all things from git'
+                echo 'getting all,, things from git'
             }
          }
         stage('Test') {

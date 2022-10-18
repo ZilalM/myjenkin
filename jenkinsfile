@@ -4,7 +4,7 @@ pipeline {
     stages {
          stage('Git pull') {
             steps {
-                echo 'Hello World'
+                echo 'getting things from git'
             }
          }
         stage('Test') {

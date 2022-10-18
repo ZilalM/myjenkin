@@ -2,21 +2,11 @@ pipeline {
     agent any
 
     stages {
-         stage('Git pull') {
+        stage('testing') {
             steps {
-                echo 'getting all,, things from git'
-            }
-         }
-        stage('Test') {
-            steps {
-                echo 'Hello test'
-            }
-         }
-         
-        stage('Deploy') {
-            steps {
-                echo 'Hello deploy'
+                echo 'Hello World'
             }
         }
     }
 }
+
